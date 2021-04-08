@@ -15,7 +15,7 @@ namespace Airline.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.is ready";
 
             return View();
         }
