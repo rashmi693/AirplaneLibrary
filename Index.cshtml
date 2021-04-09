@@ -1,0 +1,76 @@
+﻿<!--@{
+    ViewBag.Title = "Home Page";
+}
+<div style="background-image: url(../../bga.png);">-->
+    @*<div class="jumbotron">*@
+        
+            <!--<h1>Flamingo Airline</h1>
+            <p class="badge">Let Your Dreams Fly </p>
+        </div>-->
+    @*</div>*@
+
+<html>
+<head>
+    <style>
+
+
+        div.transbox {
+            background-color: black;
+            border: 1px solid black;
+            opacity: 0.6;
+            text-align:center;
+            padding-bottom:20px;
+            text-decoration-color:red;
+        }
+
+            div.transbox p {
+                margin-top: 5%;
+                font-weight: bold;
+                font-family: "Viner Hand ITC";
+                font-size: 50px;
+               
+                color: wheat;
+                text-align:center;
+            }
+        div.row h2 {
+            margin-top: 5%;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+            color: black;
+            
+        }
+        div.row p {
+           
+            font-weight: bold;
+            font-family: Verdana;
+            font-size: 15px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="background">
+        <div class="transbox">
+            
+            <p>Flamingo Airline</p>
+                <div class="badge">Let Your Dreams Fly </div>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <center>
+                <h2>Welcome To  Flamingo Airlines</h2>
+                <p>
+                    Flamingo provides you an easy  Flight Booking in affordable Price. 
+                    Book now and let's fly . So what are you waiting for...
+                    <p>The Sky is waiting for you....<p>
+                </p>
+                <p><a class="btn btn-default" href="@Url.Action("LoginUser", "Login")">Book Now&raquo;</a></p>
+                </center>
+           
+          </div>  
+        </body>
+    </html>
